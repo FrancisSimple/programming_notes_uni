@@ -1,0 +1,10 @@
+an algorithm is a precise sequence of finite steps or instructions for solving a 
+problem or performing a computation.
+
+common algorithms used:
+ to reduce size of data: Opus (for audio) amd VP8/VP9, H.264 (for Video)
+ google map: Dijkstra's (Route Finding) and the A* search algorithms.
+ NASA: control external space- Control Systems and Scheduling algorithms
+ for shortest path in internet for data transfer: Networking Routing (Dikjstra's, Bellman-Ford)
+ used by search engines: Page Rank Algorithm, Space Partition Tree and Graph (SPTAG)
+ 

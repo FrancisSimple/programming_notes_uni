@@ -1,0 +1,33 @@
+collection: a group of objects
+
+Collections framework: a collection of interfaces and classes used to store 
+and organise groups of elements or objects.
+It is also the root interface for all the other classes and interfaces.
+
+dequeue is a method that is pronounced "De-queue"
+
+deque is a concrete class pronouced as "Deck"
+
+interfaces in the new java editions contain methods with default implementations.
+
+Collections class: this is not part of the framework.
+It is useful to make operations on data structures with its static methods.
+it does not need implemention of its own version.
+it is a class.
+It is a side class from which we reference some methods to use on our structures.
+
+note the detail difference among: collection (group of objects),Collection(interface),Collections(side class not in framework)
+
+Abstract calsses: some common methods are implemented, the rest can be done by user.
+
+set is not ordered and denies duplicates.
+list: ordered and allows duplicates.
+
+interfaces used by the collections framework which are not part of it:
+comparator, iterator, listIterator, Spliterator, RandomAcess. (to know well)
+
+ArrayList has 3 constructors by default.
+
+can we use a for-each loop on a non-generic class?
+
+
