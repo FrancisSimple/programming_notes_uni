@@ -7,4 +7,35 @@ common algorithms used:
  NASA: control external space- Control Systems and Scheduling algorithms
  for shortest path in internet for data transfer: Networking Routing (Dikjstra's, Bellman-Ford)
  used by search engines: Page Rank Algorithm, Space Partition Tree and Graph (SPTAG)
- 
+
+
+Note: all programs may not align with all the properties of algorithms like finiteness.
+
+algorithm can be expressed in two ways: 
+1. In plain english words
+2. In a flow chart format
+3. Pseudocode
+4. Programming language (precise, executable, and allows direct implementation)
+
+Pseudocode: using programming-like construct to write out an algorithm.
+it avoids ambiguity
+there is no universal syntax (there is variations in representation)
+
+properties of algorithm:
+1.Input: can have zero or more inputs
+2.Output: should produce at least an inputs
+3.Unambiguous or definiteness (steps are clear and lead to only one meaning)
+4.Finiteness
+5.Independent of any programming code
+6.Correctness (output correctly solves the problem)
+7.Generality: it applies to a set of inputs
+8.Effectiveness: Must not have unnecessary steps
+
+
+Difference between algorithms and programs:
+
+1. written during the design phase---:---written during the implementation phase
+2. The person who writes should have the domain knowledge---:---the person should have programming language
+3. can be written in any language---:---should be written using programming languages
+4. Independent of the platform---:---may depend on the platform(like compilers,OS,hardware)
+5. Need analysis(correctness and efficiency)---:---need testing
