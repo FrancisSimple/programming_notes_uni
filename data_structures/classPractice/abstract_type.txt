@@ -1,0 +1,20 @@
+ABSTRACT DATA TYPE (ADT), LISTS
+
+Abstract data type is a set of data objects with a specification of a set of operations that can be performed 
+over those data objects.
+it does not contain details of how the set of operations is implemented.
+
+================A LIST ADT==============
+LinearList ADT: this is an abstract class, meaning it just shows the implementations, but not the how.
+Array is an implementation of the List interface (it is not a list itself)
+Array is thus a concrete class of the List interface.
+
+*Note: the array itself is not a list. we can use it to make lists.
+ArrayList is a List built and implemented using an array.
+
+position in the list is different from the index in the list.
+
+offset index: the number of index that we need to leave before inserting the first element in the list.
+list size and array size are not the same.
+list size refers to the number of actual elements in the list
+array size refers to the total available length of space available to store elements.

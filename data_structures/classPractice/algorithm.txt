@@ -30,8 +30,8 @@ properties of algorithm:
 6.Correctness (output correctly solves the problem)
 7.Generality: it applies to a set of inputs
 8.Effectiveness: Must not have unnecessary steps
-
-
+    
+    
 Difference between algorithms and programs:
 
 1. written during the design phase---:---written during the implementation phase
@@ -39,3 +39,74 @@ Difference between algorithms and programs:
 3. can be written in any language---:---should be written using programming languages
 4. Independent of the platform---:---may depend on the platform(like compilers,OS,hardware)
 5. Need analysis(correctness and efficiency)---:---need testing
+
+ALGORITHM analysis
+big O notation is use to analyse algorithms running time using input size.
+if the function/operation is going to be a multiplication, we take the value n = bits size to represent the input
+
+
+RAM Model:
+-a normal computer in which instructions are executed sequentially
+-performs standard simple instructions/computations such as addition, multiplication, comparison and assignment, which takes exactly 1 time unit or 1 step to do anything.
+-sorting and matrix inversion as well as other complex operations are not included.
+-we assume infinite memory.
+
+NB: if ++j and j++ are standing alone, they make no difference (j=j+1)
+
+the portion inside the loop condition that does the actual checking runs as follows:
+for (i = i_value; i < n; i++): i<n runs n+1 times.
+
+
+for statements that are not embedded in each other but follows each other 
+we simply add their separate running times together.
+
+
+cases of if-else statement:
+evaluate if and else parts separately. Get the time of the one that consumes most time.
+Add the evaluated time to the total time taken by the condition inside the if brackets (we always add this)
+
+
+the time function is a linear function.
+Most efficient algorithms are constant ones since they do not depend on the input size.
+
+
+LOGARITHMIC TIME:
+this is the most efficient after the constant function.
+it gives a function of the form a*log_n...
+
+an algorithm time is log n if it takes constant time to cut the problem size by a fraction (which is usually half)
+An example is the Euclid's algorithm for gcd computation
+
+after two iterations using this logarithmic method, we notice that the size of the input is at least less than half the 
+size of largest number that is being mod (m mod n).
+
+not every problem considers the input as directly the input size. for example, for two numbers that multiply as inputs
+the input size is the number of bits that can be used to represent the inputs.
+
+order of growth: the running time an algorithm is expressed considering only the leading term, 
+ignoring the lower order terms and constant coefficient of the leading term.
+
+- this helps to group functions of the same type.
+
+
+asymptotic notation is a formal way to denote the order of growth of the
+ running time or efficiency of algorithms, for large input sizes.
+
+-commonly used asymptotic notation:
+big O, omega and theta with the "small" counterparts.
+
+//////////////////
+big O noation:
+used to represent asymptotically upper bound on running time.
+
+//////////////////
+big-omega notation:
+used to represent asymptotically lower bound on runnig time.
+f(n) >= c*g(n) for all n >= n_o (where n_o is the order.)
+
+
+Big theta: used to represent asymptotically tight bound on running time.
+
+tight bound is also called as average bound. but this is directly linked to average case.
+Best case => lower bound
+Worst case => upper bound

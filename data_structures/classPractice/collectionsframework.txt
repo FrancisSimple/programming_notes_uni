@@ -29,5 +29,3 @@ comparator, iterator, listIterator, Spliterator, RandomAcess. (to know well)
 ArrayList has 3 constructors by default.
 
 can we use a for-each loop on a non-generic class?
-
-
